@@ -8,7 +8,7 @@ class About extends Component {
     return (
       <div>
         <div className="container">
-          <Jumbotron title="About Me" subtitle=""/>
+          <Jumbotron title="Nicholas Geary's Projects" subtitle=""/>
 
           <Navbar/>
 
@@ -21,4 +21,4 @@ class About extends Component {
   }
 }
 
-export default About
+export default Project

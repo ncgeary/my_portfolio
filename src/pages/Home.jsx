@@ -8,7 +8,7 @@ class Home extends Component {
     return (
       <div>
         <div className="container">
-          <Jumbotron title="Welcome" subtitle="Put Something Witty here!"/>
+          <Jumbotron title="Nicholas Geary's Portfolio" subtitle=""/>
 
           <Navbar/>
 
