@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
-import Home from './pages/Home.jsx';
-import About from './pages/About.jsx';
-import Project from './pages/Project.jsx';
-import Contact from './pages/Contact.jsx';
+import Home from './pages/Home/Home.jsx';
+import Project from './pages/Projects/Project.jsx';
+import Contact from './pages/Contact/Contact.jsx';
 
 
 class App extends Component {
@@ -14,7 +13,6 @@ class App extends Component {
       <Router>
         <div>
           <Route exact path="/" component={Home}/>
-          <Route path="/about" component={About}/>
           <Route path="/project" component={Project}/>
           <Route path="/contact" component={Contact}/>
         </div>
