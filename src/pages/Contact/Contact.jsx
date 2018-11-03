@@ -9,9 +9,11 @@ class Contact extends Component {
       <div>
         <div className="container">
 
+          <Navbar/>
+
           <Jumbotron title="Contact Me" subtitle="Let's Talk"/>
 
-          <Navbar/>
+
 
           <section id="contact">
 

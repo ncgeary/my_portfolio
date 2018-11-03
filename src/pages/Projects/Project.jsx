@@ -8,9 +8,11 @@ class Project extends Component {
     return (
       <div>
         <div className="container">
+          <Navbar/>
+          
           <Jumbotron title="Projects" subtitle=""/>
 
-          <Navbar/>
+
 
 
 

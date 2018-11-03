@@ -12,9 +12,10 @@ class Home extends Component {
     return (
       <div>
         <div className="container">
-          <Jumbotron title="Nicholas Geary's Portfolio" subtitle=""/>
 
           <Navbar/>
+
+          <Jumbotron title="Nick Geary" subtitle="Engineer | Developer | Problem Solver"/>
 
           <Skills/>
 
