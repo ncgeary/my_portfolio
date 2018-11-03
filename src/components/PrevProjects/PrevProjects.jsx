@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 
 
-class Skills extends Component{
+class PrevProjects extends Component{
   render(){
     return(
-      "Skills"
+      "PrevProjects"
 
 
 
@@ -21,4 +21,4 @@ class Skills extends Component{
 
 }
 
-export default Skills
+export default PrevProjects
