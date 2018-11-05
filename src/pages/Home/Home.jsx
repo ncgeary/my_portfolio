@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './Home.css';
 import Navbar from '../../components/Navbar/Navbar.jsx';
 import Footer from '../../components/Footer/footer.jsx';
 import Jumbotron from '../../components/Jumbotron/Jumbotron.jsx';

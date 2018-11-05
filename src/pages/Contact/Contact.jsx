@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './Contact.css';
 import Navbar from '../../components/Navbar/Navbar.jsx';
 import Footer from '../../components/Footer/footer.jsx';
 import Jumbotron from '../../components/Jumbotron/Jumbotron.jsx';
@@ -12,7 +13,10 @@ class Contact extends Component {
           <Navbar/>
 
           <Jumbotron title="Contact Me" subtitle="Let's Talk"/>
+          <div className="header">
+            <h1>Contact Me</h1>
 
+          </div>
 
 
           <section id="contact">

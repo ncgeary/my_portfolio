@@ -6,8 +6,8 @@ class Jumbotron extends Component{
     return(
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
-          <h1 className="display-4">{this.props.title}</h1>
-          <p className="lead">{this.props.subtitle}</p>
+          <h1 className="display-4">Nick Geary</h1>
+          <p className="lead">Engineer | Developer | Problem Solver</p>
           <p className="social">
 
              <a href="https://www.linkedin.com/in/nicholasgeary/" rel='noreferrer noopener' target="_blank"><i className="fab fa-linkedin-in"></i>  Linkedin</a>
