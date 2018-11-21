@@ -4,16 +4,12 @@ import React, {Component} from 'react';
 class Skills extends Component{
   render(){
     return(
-      "Skills"
+      
+        <div className="row">
 
 
 
-
-
-
-
-
-
+        </div>
 
 
     );
