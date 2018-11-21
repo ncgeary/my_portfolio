@@ -21,7 +21,7 @@ class Footer extends Component{
           <br />
 
           <span>
-            Find the Source Code for this project and other on my   <a href="https://github.com/ncgeary/my_portfolio" rel='noreferrer noopener' target="_blank">Github <i className="fab fa-github"></i></a>
+            Find the Source Code for this project and other projects on my   <a href="https://github.com/ncgeary/my_portfolio" rel='noreferrer noopener' target="_blank">Github <i className="fab fa-github"></i></a>
           </span>
 
 
