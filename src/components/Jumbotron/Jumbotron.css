@@ -5,21 +5,27 @@
   background-size: 100% auto;
   color: white;
 }
-.social{
-  display: inline-block;
-  position: relative;
-  bottom: 0;
-  margin-left: 90%;
-  font-size: 20px;
-  color: white;
+ul {
+  list-style-type: none;
 }
 
-.social a:hover {
-    color: white;
-    border-radius: 3px;
-    padding: 5px;
+.social{
+	position:relative;
+  display: inline-block;
+	z-index:10;
+  margin-left: 85%;
+	cursor:pointer;
+	text-decoration:none;
+  text-align: center;
 }
+
 
 .social a{
     color: white;
+}
+
+.social a:hover {
+    background-color: rgba(64, 119, 227,.7);
+    color: white;
+    border-radius: 3px;
 }
