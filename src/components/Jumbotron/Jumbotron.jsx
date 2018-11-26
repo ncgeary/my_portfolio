@@ -8,7 +8,7 @@ class Jumbotron extends Component{
         <div className="container">
           <h1 className="display-4">Nick Geary</h1>
           <p className="lead">Engineer | Developer | Problem Solver</p>
-          <p className="social">
+          <div className="social">
             <ul>
               <li>
                 <a href="https://www.linkedin.com/in/nicholasgeary/" rel='noreferrer noopener' target="_blank"><i className="fab fa-linkedin-in"></i>  Linkedin</a>
@@ -17,7 +17,7 @@ class Jumbotron extends Component{
                 <a href="https://github.com/ncgeary" rel='noreferrer noopener' target="_blank"><i className="fab fa-github"></i>  Github</a>
               </li>
             </ul>
-          </p>
+          </div>
         </div>
       </div>
     );

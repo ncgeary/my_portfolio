@@ -3,7 +3,7 @@ import classes from './DevSkills.css';
 
 
 const devSkills = (props) => (
-  <div className="container">
+  <div className="container {classes.DSkills}">
     <div className="row">
       <div className="col-sm">
         <strong>FrontEnd</strong>
@@ -16,18 +16,16 @@ const devSkills = (props) => (
       <div className="col-sm">
         <strong>Frameworks</strong>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>Bootstrap4</li>
+          <li>React.js, Redux, and Router</li>
         </ul>
       </div>
       <div className="col-sm">
         <strong>BackEnd</strong>
         <ul>
-          <li></li>
-          <li></li>
+          <li>Python</li>
+          <li>php</li>
+          <li>R</li>
         </ul>
       </div>
     </div>
