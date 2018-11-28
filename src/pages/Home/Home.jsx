@@ -18,11 +18,11 @@ class Home extends Component {
 
           <Jumbotron title="Nick Geary" subtitle="Engineer | Developer | Problem Solver"/>
 
-          <Skills/>
+          <Skills id="Skills"/>
 
-          <PrevProjects/>
+          <PrevProjects id="Project"/>
 
-          <MyHistory/>
+          <MyHistory id="History"/>
 
           <Footer/>
         </div>

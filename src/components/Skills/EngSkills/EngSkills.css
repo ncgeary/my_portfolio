@@ -1,3 +1,8 @@
 .row{
   text-align: center;
+
+}
+.skills{
+    list-style: none;
+    padding-left: 0;
 }
