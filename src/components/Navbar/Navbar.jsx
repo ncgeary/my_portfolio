@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import './Navbar.css';
-import Scrollchor from 'react-scrollchor';
+//import Scrollchor from 'react-scrollchor';
 
 class Navbar extends Component{
   render(){
