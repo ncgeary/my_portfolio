@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './DevSkills.css';
+import './DevSkills.css';
 import Aux from '../../../hoc/Aux1/Aux1';
 
 

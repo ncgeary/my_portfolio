@@ -2,25 +2,26 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import './ProductionCalc.css';
 import Aux from '../../../hoc/Aux1/Aux1';
-//import Scrollchor from 'react-scrollchor';
+
 
 class ProductionCalc extends Component{
   render(){
     return (
       <Aux>
-        <div className="header">
-          Daily Production Calculator
+
+        <div className="card">
+          <div className="card-body">
+            <h5 className="card-title">Daily Production Calculator</h5>
+
+            <h6 className="card-subtitle mb-2 text-muted">Company: Sefar Inc.</h6>
+            <h6 className="card-subtitle mb-2 text-muted">Programs: Excel, Visual Basic Application</h6>
+
+            <p className="card-text">...</p>
+
+            <a to="/" className="card-link">More Information</a>
+          </div>
         </div>
 
-        <div className="projectDescription">
-          <p>Company: Sefar Inc. </p>
-          <p>Programs: Excel, Visual Basic Application  </p>
-        </div>
-
-        <div className="projectDesc">
-          <p></p>
-
-        </div>
 
 
       </Aux>

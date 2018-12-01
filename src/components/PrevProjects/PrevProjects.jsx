@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import ProductionCalc from './ProductionCalc/ProductionCalc';
+import BurgerBuilder from './BurgerBuilder/BurgerBuilder';
+import AIMDashboard from './AIMDashboard/AIMDashboard';
 import Aux from '../../hoc/Aux1/Aux1';
 
 
@@ -10,18 +12,24 @@ class PrevProjects extends Component{
         <h1>
           Projects
         </h1>
-        
-        <ProductionCalc/>
 
+        <div className="row">
+          <div className="col-sm">
+            <ProductionCalc/>
 
+          </div>
+          <div className="col-sm">
+            <BurgerBuilder/>
 
+          </div>
+          <div className="col-sm">
+            <AIMDashboard/>
 
+          </div>
 
+        </div>
 
       </Aux>
-
-
-
     );
   }
 

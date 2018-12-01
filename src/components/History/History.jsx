@@ -4,7 +4,9 @@ import React, {Component} from 'react';
 class MyHistory extends Component{
   render(){
     return(
-      "myHistory"
+      <h1>
+        My History
+      </h1>
 
 
 
