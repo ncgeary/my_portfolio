@@ -18,7 +18,7 @@ class ProductionCalc extends Component{
 
             <p className="card-text">...</p>
 
-            <a to="/" className="card-link">More Information</a>
+            <a href="/" target="_blank" className="card-link">More Information</a>
           </div>
         </div>
 

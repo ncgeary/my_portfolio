@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import ProductionCalc from './ProductionCalc/ProductionCalc';
 import BurgerBuilder from './BurgerBuilder/BurgerBuilder';
 import AIMDashboard from './AIMDashboard/AIMDashboard';
+import Tasklist from './TaskList/Tasklist';
 import Aux from '../../hoc/Aux1/Aux1';
 
 
@@ -26,6 +27,12 @@ class PrevProjects extends Component{
             <AIMDashboard/>
 
           </div>
+
+          <div className="col-sm">
+            <Tasklist/>
+
+          </div>
+
 
         </div>
 
