@@ -13,7 +13,7 @@ class AIMDashboard extends Component{
           <div className="card-body">
             <h5 className="card-title">AIM Coaching Dashboard</h5>
 
-            <h6 className="card-subtitle mb-2 text-muted">Company: HealthNow BlueCross BlueSheild</h6>
+            <h6 className="card-subtitle mb-2 text-muted"><strong>Company: HealthNow BlueCross BlueSheild</strong></h6>
             <h6 className="card-subtitle mb-2 text-muted">Programs: Tableau & Excel</h6>
 
             <p className="card-text">...</p>

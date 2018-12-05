@@ -11,8 +11,10 @@ class Tasklist extends Component{
 
         <div className="card">
           <div className="card-body">
+
             <h5 className="card-title">Task List Creater</h5>
 
+            <h6 className="card-subtitle mb-2 text-muted"><strong>Personal Project</strong></h6>
             <h6 className="card-subtitle mb-2 text-muted">Programs: HTML5, Bootstrap4, CSS3, and JavaScript</h6>
 
             <p className="card-text">...</p>
