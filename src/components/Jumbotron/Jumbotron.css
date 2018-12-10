@@ -49,3 +49,16 @@
   border-bottom: 1px solid #2d2d2d;
   padding: .5em .6em;
 }
+
+@media (max-width: 1000px) {
+  .header{
+    margin-top: 20px;
+  }
+  .header span {
+    display: inline-block;
+    border-top: 0px solid #2d2d2d;
+    border-bottom: 0px solid #2d2d2d;
+    padding: .5em .6em;
+  }
+
+}
