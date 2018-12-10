@@ -18,8 +18,8 @@ class BurgerBuilder extends Component{
 
             <p className="card-text">...</p>
 
-            <a href="https://github.com/ncgeary/burger_builder" target="_blank" className="card-link">Source Code</a>
-            <a href="#" target="_blank" className="card-link">More Information</a>
+            <a href="https://github.com/ncgeary/burger_builder" rel="noopener noreferrer" target="_blank" className="card-link">Source Code</a>
+            <a href="/" rel="noopener noreferrer" target="_blank"  className="card-link">More Information</a>
           </div>
         </div>
 

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 import './AIMDashboard.css';
 import Aux from '../../../hoc/Aux1/Aux1';
 
@@ -18,7 +18,7 @@ class AIMDashboard extends Component{
 
             <p className="card-text">...</p>
 
-            <a href="#" target="_blank" className="card-link">More Information</a>
+            <a href="/" target="_blank" className="card-link">More Information</a>
           </div>
         </div>
 

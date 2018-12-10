@@ -42,6 +42,30 @@ class Navbar extends Component{
             <li className="nav-item active">
               <Link className="nav-link" to="/Contact">Contact Me</Link>
             </li>
+
+            {/*<li className="nav-item active">
+              <a className="nav-link" href="src\images\Resume\Nicholas_Geary_EngResume-2018.pdf" download target="_blank">Eng Resume</a>
+            </li>*/}
+
+            <li className="nav-item active dropdown">
+              <Link
+                className="nav-link dropdown-toggle"
+                to="#" id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false">
+                Download Resumes
+              </Link>
+              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a className="dropdown-item" href="src\images\Resume\Nicholas_Geary_EngResume-2018.pdf" download="Nicholas_Geary_EngResume-2018.pdf" rel='noreferrer noopener'>Engineering Resume</a>
+
+                <div className="dropdown-divider"></div>
+
+                <a className="dropdown-item" href="/">Developer Resume</a>
+              </div>
+            </li>
+
           </ul>
         </div>
       </nav>
