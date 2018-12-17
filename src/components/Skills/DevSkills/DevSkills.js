@@ -24,11 +24,12 @@ const devSkills = (props) => (
 
       <div className="col-sm">
 
-        <h5><strong>Frameworks</strong></h5>
+        <h5><strong>Frameworks/Library</strong></h5>
 
         <ul className="skills">
           <li>Bootstrap4</li>
-          <li>React.js, Redux, and Router</li>
+          <li>React.js & Router</li>
+          <li>NumPy & Pandas</li>
         </ul>
       </div>
 
